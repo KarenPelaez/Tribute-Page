@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang ="es">
+<head>
+<meta charset="UTF-8">
+<meta name="authot" contenet "KarenPelaez"/>
+<title>Página tributo</title>
+</head>
+<body>
+<main>
+<div id= "principal">
+<h1 id ="titulo" clase ="centro">Katherine Johnson</h1>
+<p id= "creador">Creador: Karen Peláez</p>
+<div id="img-div">
+<img id="image" src="https://www.iac.es/sites/default/files/images/blog/Katherine.jpg">
+<figcaption id="img-caption">Katherine Johnson en la NASA, 1966.
+</figcaption>
+</figure>
+</div>
+<div id= "tribute-info">
+<h2>Katherine Johnson</h2>
+<p>Fue una física, científica espacial y matemática estadounidense, que contribuyó a la aeronáutica de Estados Unidos y sus programas espaciales.</p>
+<ul>
+<li><b>1937 </b> - Se graduó summa cum laude, en matemáticas y francés, a los 18 años.</li>
+<li><b>1953 a 1958</b>- Trabajó como calculadora humana y analizaba temas como el alivio de ráfagas para aviones.</li>
+<li><b>1958 hasta su jubilación en 1986</b>- Trabajó como tecnóloga aeroespacial en el área de Controles de Naves Espaciales (Spacecraft Controls Branch).</li>
+<li><b>1961</b> - Calculó la trayectoria del vuelo espacial de Alan Shepard, el primer estadounidense en el espacio y tambien calculó la ventana de lanzamiento del Proyecto Mercury</li>
+<li><b>1962 </b> - Cuando la NASA comenzó a utilizar computadoras electrónicas para calcular la órbita de John Glenn alrededor de la Tierra, fue convocada para verificar los resultados de la computadora</li>
+<li><b>1969 </b> - Ayudó a calcular la trayectoria de vuelo del Apolo 11 a la Luna</li>
+<li><b>1970 </b> - Trabajó en la misión del Apolo 13 y una vez que la misión fue abortada su trabajo en implementar procedimientos y cartas de navegación de respaldo ayudó a que la tripulación pudiera regresar a salvo a la Tierra cuatro días más tarde</li>
+<li>Falleció en una casa de retiro en Newport News el 24 de febrero de 2020, a la edad de 101 años</li>
+</ul>
+<br>
+<br>
+<p>Para mayor informacion se puede visitar la siguiente pagina 
+<a target ="_blank" href ="https://mujeresconciencia.com/2016/12/12/katherine-johnson-la-calculadora-humana/" id= "tribute-link">Mujeresconciencia </a>
+</p>
+</div>
+</main>
+</body>
+
+</html>
+
+
+<!--- CSSS>
+<style>
+body {
+  background-color: rgb(251, 252, 241);
+  margin: 0 0 50px 0;
+  padding: 50px;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+h1 {
+  font-family: "Arial", cursive;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: "Arial";
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  width: 80%;
+}
+p {
+  font-family: "Arial";
+  font-size: 20px;
+  text-align: justify;
+}
+
+#creador {
+  text-align: center;
+}
+
+ul {
+  margin: auto;
+  max-width: 500px;
+}
+li {
+  font-family:  "Arial";
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+#main {
+  padding: 10px;
+}
+#img-div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px auto 60px auto;
+  width: 60%;
+  text-align: center;
+}
+figure {
+  margin: auto;
+  padding: 5px;
+  width: 90%;
+}
+#image {
+  display: block;
+  margin: 40px auto 20px auto;
+  max-width: 100%;
+}
+figcaption {
+  font-family: "Arial";
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#tribute-info {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.link-text {
+  font-family:  "Arial";
+  font-size: 30px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  width: 80%;
+}
+#tribute-link {
+  text-decoration: none;
+}
+
+}
+</style>
+
+
